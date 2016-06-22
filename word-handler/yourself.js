@@ -1,1 +1,1 @@
-module.exports = "yeself"
+module.exports = "ye'self"

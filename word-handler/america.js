@@ -1,1 +1,1 @@
-module.exports = "new world"
+module.exports = "the new world"
