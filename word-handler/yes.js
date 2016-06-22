@@ -3,7 +3,8 @@ const randomNumber = require('../random-number')
 const translations = [
   "yarr",
   "yar",
-  "aye"
+  "aye",
+  "arr"
 ]
 
 

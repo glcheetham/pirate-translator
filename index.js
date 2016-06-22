@@ -1,6 +1,5 @@
 'use strict'
 const wordHandler = require('./word-handler')
-const path = require('path')
 
 const input = "Hello there my wonderful pirate friends"
 
