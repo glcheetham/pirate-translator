@@ -1,14 +1,13 @@
 'use strict'
-const wordHandlers = require('./word-handlers')
+const wordHandler = require('./word-handler')
+const path = require('path')
 
-const input = "Hello there my wonderful seafaring friends."
+const input = "Hello there my wonderful pirate friends"
 
 const words = input.split(/\s/)
 
 words.forEach(word => {
   let translation = word
-  wordHandlers.forEach(handler => {
-    translation = handler(word) || translation
-  })
+  translation = wordHandler(word) || translation
   console.log(translation)
 })
